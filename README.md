@@ -10,14 +10,14 @@ Usage
 --------------
 Manage rules under /sitecore/system/Settings/Rules/Placeholder Renderings/Rules
 
-[View screenshots in the wiki](https://github.com/digitalParkour/Community.Foundation.PlaceholderRules/wiki).
+[View screenshots in the wiki](https://github.com/digitalParkour/Community.Foundation.PlaceholderRules/wiki/Usage).
 
   
 Setup
 --------------
 Either:
 * Install Sitecore package:  
-	\\releases\\Community.Foundation.PlaceholderRules-\*.zip  
+	\\[releases](https://github.com/digitalParkour/Community.Foundation.PlaceholderRules/tree/master/releases)\\Community.Foundation.PlaceholderRules-\*.zip  
 			
 Or:
 1. Include this project in your Helix style solution
