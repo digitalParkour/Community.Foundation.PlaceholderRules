@@ -1,0 +1,25 @@
+﻿---
+ID: "fab94f59-a15a-4470-8dad-19db62eb2b82"
+Parent: "dbac34d6-d12c-463c-a89e-1bec2965704a"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/placeholder-renderings/Placeholder Path"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Community.Foundation.PlaceholderRules.Rules.Conditions.PlaceholderPath,Community.Foundation.PlaceholderRules
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150312T115957
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where placeholder path [operatorid,StringOperator,,compares to] [Value,,,value]"

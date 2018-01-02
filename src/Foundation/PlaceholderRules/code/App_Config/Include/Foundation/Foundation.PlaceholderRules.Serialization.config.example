@@ -1,0 +1,18 @@
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
+  <sitecore>
+    <!-- Enable this config if you are using unicorn (4.0) -->
+    <unicorn>
+      <configurations>
+        <configuration name="Foundation.PlaceholderRules" dependencies="Foundation.Serialization"><!-- Dependent on project that creates node: /sitecore/templates/Foundation -->
+            <targetDataStore physicalRootPath="$(sourceFolder)\$(layer)\$(module)\serialization" />
+            <predicate>
+                <include name="$(layer).$(module).Templates" database="master" path="/sitecore/templates/$(layer)/$(module)" />
+                <include name="$(layer).$(module).Rules" database="master" path="/sitecore/system/Settings/Rules/placeholder-renderings" />
+                <include name="$(layer).$(module).Tags" database="master" path="/sitecore/system/Settings/Rules/Definitions/Tags/Placeholder Renderings" />
+                <include name="$(layer).$(module).Definitions" database="master" path="/sitecore/system/Settings/Rules/Definitions/Elements/placeholder-renderings" />
+            </predicate>
+        </configuration>
+      </configurations>
+    </unicorn>
+  </sitecore>
+</configuration>

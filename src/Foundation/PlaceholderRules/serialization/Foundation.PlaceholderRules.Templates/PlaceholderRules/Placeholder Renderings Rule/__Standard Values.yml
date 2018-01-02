@@ -1,0 +1,21 @@
+﻿---
+ID: "342482b7-802f-49f1-a17b-cf38a1a96fa9"
+Parent: "c81d8680-a5d7-4646-9048-9eeb7efbb061"
+Template: "c81d8680-a5d7-4646-9048-9eeb7efbb061"
+Path: /sitecore/templates/Foundation/PlaceholderRules/Placeholder Renderings Rule/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150312T113322
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9533fbe8-2c4e-4328-a16f-0836e3a436d3"
+      Hint: Name
+      Value: $name
